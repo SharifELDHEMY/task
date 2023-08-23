@@ -1,1 +1,12 @@
+on:
+  push:
+    branches:
+      - master
 
+jobs:
+  bulid:
+    runs-on: ubuntu-latest
+
+    steps:
+      -name: " printing folders "
+      run: ls
